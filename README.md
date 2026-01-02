@@ -1,5 +1,8 @@
 📦 Entrega do Teste de Automação (Web e API)
+---------------------------
+
 Este projeto é uma demonstração de como testar um site e uma base de dados (API) de forma automática. Em vez de uma pessoa clicar em cada botão, o computador faz isso sozinho para garantir que tudo está funcionando.
+
 ---------------------------
 🛠️ O que foi usado?
 
