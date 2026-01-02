@@ -8,6 +8,7 @@ Este projeto é uma demonstração de como testar um site e uma base de dados (A
 **Cucumber:** Uma linguagem que permite escrever os testes em português simples (Ex: "Dado que eu clico no botão").
 
 **JavaScript:** A "cola" que liga o texto em português aos comandos do computador.
+
 ---------------------------
 🚀 Como preparar o seu computador para rodar o teste
 Se você nunca rodou um código antes, siga estes 3 passos:
