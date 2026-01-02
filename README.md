@@ -2,6 +2,7 @@
 Este projeto é uma demonstração de como testar um site e uma base de dados (API) de forma automática. Em vez de uma pessoa clicar em cada botão, o computador faz isso sozinho para garantir que tudo está funcionando.
 ---------------------------
 🛠️ O que foi usado?
+
 **Cypress:** A ferramenta que "dirige" o navegador.
 
 **Cucumber:** Uma linguagem que permite escrever os testes em português simples (Ex: "Dado que eu clico no botão").
