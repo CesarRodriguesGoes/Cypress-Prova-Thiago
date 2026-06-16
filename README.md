@@ -42,27 +42,28 @@ Para rodar este projeto localmente, você precisará ter instalado em sua máqui
 
 2. Acesse a pasta raiz do projeto via terminal/prompt:
 
-Bash
-cd nome-do-projeto
+   ```bash
+   cd nome-do-projeto
 
 3. Instale todas as dependências necessárias do projeto rodando:
 
-Bash
-npm install
+   ```bash
+   npm install
 
-🖥️ Execução dos Testes
+## 🖥️ Execução dos Testes
 O Cypress permite que você execute a suite de testes de duas formas:
 
-Opção A: Modo Interativo (Interface Visual)
+*Opção A: Modo Interativo (Interface Visual)
 Para abrir o Cypress Runner, acompanhar a execução passo a passo no navegador escolhido e inspecionar os elementos em tempo real:
+ 
+      npx cypress open
 
-npx cypress open
 *Após abrir a tela do Cypress, selecione E2E Testing, escolha o navegador de sua preferência (Ex: Chrome) e clique sobre a especificação (.feature) que deseja rodar.*
-
-Opção B: Modo Headless (Via Terminal)
+   
+*Opção B: Modo Headless (Via Terminal)
 Para rodar todos os testes em segundo plano de forma rápida (ideal para esteiras de CI/CD), gerando o relatório direto no console:
 
-npx cypress run
+     npx cypress run
 --------------------------------------------------------------------
 📝 Nota do Desenvolvedor
 Além da automação e integração da API diretamente no framework do Cypress com Cucumber, a validação inicial e o mapeamento dos endpoints da API do Trello foram realizados via Postman. Essa abordagem híbrida foi adotada para demonstrar versatilidade no uso de ferramentas de mercado e capacidade de validação em diferentes camadas da aplicação (UI e Integração), garantindo a integridade dos dados e a validação correta de status codes e payloads dinâmicos.
